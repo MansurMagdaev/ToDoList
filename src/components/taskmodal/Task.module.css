@@ -1,0 +1,34 @@
+
+.task {
+    margin: auto;
+    padding-top: 15px;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(34, 35, 49);
+    border-radius: 10px;
+    border: 4px solid rgba(14, 27, 51, 0.719);
+}
+
+.task > input {
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.task >:last-child {
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 90%;
+    max-width: 90%;
+    max-height: 75%;
+    min-height: 30%;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.task > span {
+    color: white;
+    font-size: 20px;
+}

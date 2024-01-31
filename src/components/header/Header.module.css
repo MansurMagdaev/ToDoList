@@ -1,0 +1,32 @@
+.header {
+    color: white;
+    font-family: sans-serif;
+    margin: 50px 0px;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.choose > * {
+    padding: 10px;
+    background-color: rgb(34, 35, 49);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(61, 39, 39);
+}
+
+.addBut {
+    padding: 10px;
+    background-color: rgb(34, 35, 49);
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px 10px;
+}
